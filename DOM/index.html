@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM Task</title>
+</head>
+
+<body>
+
+    <h3>Please enter your name</h3>
+
+
+    <label for="textBox">Name:</label><br>
+
+    <input type="text" id="textBox">
+
+    <br><br>
+
+    <div id="showText"></div>
+
+    <script>
+        // Event triggers whenever user types in the textbox
+        var input = document.getElementById("textBox");
+        // Update the div with the current value of textbox
+        var output = document.getElementById("showText");
+        input.onkeyup = function () {
+            output.innerHTML = input.value;
+        };
+        // console.log("");
+        
+    </script>
+</body>
+</html>
