@@ -1,7 +1,7 @@
 body {
     font-family: system-ui;
-    background: #0d92d4;
-    color: white;
+    background: #e6e8ea;
+    color: rgb(22, 21, 21);
     text-align: center;
     padding: 20px;
 }
@@ -19,5 +19,5 @@ button {
 #output {
     margin-top: 20px;
     font-weight: bold;
-    color: rgb(243, 243, 154);
+    color: rgb(19, 19, 19);
 }
